@@ -16,7 +16,7 @@ def model_train(img_width, img_height, top_model_weights_path, train_data_dir,
 	train_datagen = ImageDataGenerator(rescale= 1./255,
 									shear_range = 0.2,
                                    	zoom_range = 0.2,
-                                   	rotation_range=40, 
+                                   	rotation_range=30, 
                                    	width_shift_range=0.2, 
                                    	height_shift_range=0.2, 
                                    	horizontal_flip = False)
@@ -62,7 +62,7 @@ def model_train(img_width, img_height, top_model_weights_path, train_data_dir,
 	train_datagen_top = ImageDataGenerator(rescale= 1./255,
                                        	shear_range = 0.2,
                                        	zoom_range = 0.2,
-                                       	rotation_range=40, 
+                                       	rotation_range=30, 
                                        	width_shift_range=0.2, 
                                        	height_shift_range=0.2, 
                                        	horizontal_flip = False)
@@ -111,7 +111,7 @@ def model_train(img_width, img_height, top_model_weights_path, train_data_dir,
 	model.add(Dropout(0.70))     
 	model.add(Dense(num_classes, activation='softmax')) 
  
-	opt = tf.keras.optimizers.Adam(learning_rate=0.0005)
+	opt = keras.optimizers.Adam(learning_rate=0.0005)
 	model.compile(optimizer=opt,  
              	loss='categorical_crossentropy', metrics=['accuracy'])  
   
