@@ -108,7 +108,7 @@ def model_train(img_width, img_height, top_model_weights_path, train_data_dir,
 	model = Sequential()  
 	model.add(Flatten(input_shape=train_data.shape[1:]))
 	model.add(Dense(units=256, activation='relu'))
-	model.add(Dropout(0.70))     
+	model.add(Dropout(0.60))     
 	model.add(Dense(num_classes, activation='softmax')) 
  
 	opt = keras.optimizers.Adam(learning_rate=0.0005)
