@@ -73,3 +73,6 @@ model = applications.VGG16(include_top=False, weights='imagenet')
 model_train(img_width, img_height, top_model_weights_path, train_data_dir, 
 	validation_data_dir, epochs, batch_size, model)
 
+df = pd.DataFrame(list(zip(test_label, class_predicted)), columns =['filename', 'class_predicted']) 
+df_pred = pd.DataFrame(data=pred, columns=['0', '1'])
+df_pred.to_csv('prediction_probability.csv', index=False)
