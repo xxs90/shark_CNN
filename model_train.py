@@ -196,3 +196,5 @@ def model_train(img_width, img_height, top_model_weights_path, train_data_dir,
 	plot_confusion_matrix(cm, classes=class_names, normalize=True,
     	                  title='Normalized confusion matrix')
 	plt.savefig('cm_norm.png')
+
+	return class_predicted, test_label, pred
