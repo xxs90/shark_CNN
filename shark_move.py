@@ -7,7 +7,7 @@ import sys
 
 pd.options.mode.chained_assignment = None
 
-os.chdir('/mnt/e/Portfolio-JJ/Instagram_Pipeline/shark_cnn/model_trainer/false_positive/')
+os.chdir('false_positive/')
 def listdir_nohidden(path):
     for f in os.listdir(path):
         if not f.startswith('.'):
@@ -16,7 +16,7 @@ pwd_list = list(listdir_nohidden(os.getcwd()))
 
 df = pd.DataFrame(pwd_list, columns=['img_name'])
 
-os.chdir('/mnt/e/Portfolio-JJ/Instagram_Pipeline/shark_cnn/model_trainer/dataset/test_set/not_shark/')
+os.chdir('dataset/test_set/not_shark/')
 
 def listdir_nohidden(path):
     for f in os.listdir(path):
@@ -32,6 +32,6 @@ for i in df.index:
 	name_use = name + '.jpg'
 	'''
 	try:
-		shutil.move(f'{name}', '/mnt/e/Portfolio-JJ/Instagram_Pipeline/shark_cnn/model_trainer/tmp/')
+		shutil.move(f'{name}', 'tmp/')
 	except FileNotFoundError:
 		continue
