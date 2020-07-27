@@ -14,7 +14,7 @@ In conjuncture with Instagram web scraping utilizing InstaCrawlR [3] for post co
 Image examples for the three classes: drawing, not_shark, and shark
 
 ## Data
-You can download the image repository [here.](https://drive.google.com/drive/folders/1ov4wfJUWTLWmqwUbvs8v0L9BUCZed6E4?usp=sharing)
+You can download the image repository [here.](https://drive.google.com/drive/folders/1iM__3vys_NrjWMmppbo2k1zsXxWPEB3h?usp=sharing)
 
 The dataset structure is shown below
 ```
