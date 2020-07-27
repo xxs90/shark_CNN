@@ -61,6 +61,15 @@ Note -- Add the images you want predicted to `model_predictor/dataset/test_set/s
 
 ## Results
 
+![confusion_matrix](cm_norm.png)
+
+A typical training run will look like this where validation accuracy is 92%. Loss is very low, around 0.4 and training accuracy ranges from 90-95%. `F1=0.93` 93% accuracy prediction for Instagram images. 
+
+## Check out
+Based on a multi-classification model trained to identify vector parasites of Schistosomiasis
+- [Schisto-parasite-classification](https://github.com/deleo-lab/schisto-parasite-classification)
+Web application `sharkPulse` designed to crowdsource shark images from around the world for monitoring shark populations 
+- [sharkPulse](http://sharkpulse.org/)
 
 ## References
 - [1] Jenrette J, Liu ZY-C, Hastie T, Ferretti F. Data mining Instagram for tracking global sharkpopulations. Science Advances (TBD). 2020.
