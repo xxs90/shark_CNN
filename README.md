@@ -61,7 +61,7 @@ Note -- Add the images you want predicted to `model_predictor/dataset/test_set/s
 
 ## Results
 
-![confusion_matrix](cm_norm.png)
+![confusion_matrix](cm_norm.PNG)
 
 `0 = drawing`
 `1 = not_shark`
