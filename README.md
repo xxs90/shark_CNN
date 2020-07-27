@@ -68,6 +68,7 @@ A typical training run will look like this where validation accuracy is 92%. Los
 ## Check out
 Based on a multi-classification model trained to identify vector parasites of Schistosomiasis
 - [Schisto-parasite-classification](https://github.com/deleo-lab/schisto-parasite-classification)
+
 Web application `sharkPulse` designed to crowdsource shark images from around the world for monitoring shark populations 
 - [sharkPulse](http://sharkpulse.org/)
 
