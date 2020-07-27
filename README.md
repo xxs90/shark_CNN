@@ -59,8 +59,15 @@ Note -- Add the images you want predicted to `model_predictor/dataset/test_set/s
 (2) You can adjust the threshold however you want. It is currently set to 0.63.
 (3) `class_prediction.csv` is produced and again, `move_file.py` can be run to identify shark and non-shark predictions. You can edit `main_inference.py` to identify drawing predictions as well. 
 
+## Results
+
+
 ## References
 - [1] Jenrette J, Liu ZY-C, Hastie T, Ferretti F. Data mining Instagram for tracking global sharkpopulations. Science Advances (TBD). 2020.
 - [2] Liu ZY-C, Chamberlin AJ, Shome P, Jones IJ, Riveau G, Jouanard N, Ndione, Sokolow SH, De Leo GA. Identification of snails and parasites of medical importance via convolutional neural network: an application for human schistosomiasis. PLoS neglected tropical diseases. 2019.
 - [3] Schroeder J. InstaCrawlR. Crawl public Instagram data using R scripts without API access token. 2018. 
 - [4] Zisserman A, Simonyan K. Very Deep Convolutional Networks for Large-Scale Image Recognition. Published in arXiv. 2014.
+
+## Contact
+- Data: jjeremy1@vt.edu
+- Model: jjeremy1@vt.edu, zacycliu@stanford.edu
