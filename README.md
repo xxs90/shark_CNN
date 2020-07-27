@@ -7,7 +7,11 @@ Note -- (This model works best when predicting images originating from Instagram
 
 In early trainings, we identified challenges in a binary classification structure that more often than not, pointed to drawings of sharks. After adding a 'drawing' class and increasing the threshold to 0.63, this model can predict shark images with 92% accuracy.
 
+In conjuncture with Instagram web scraping utilizing InstaCrawlR [3] for post collection, this model can be used in a pipeline which maps inferred shark sightings according to predictions and locations mentioned in the post [1]. You can find this repository [here](https://github.com/JeremyFJ/Instagram_sharkSighting)
 
+![image_sample1.png](image_sample1.png)
+
+Image examples for the three classes: drawing, not_shark, and shark
 
 ## Data
 You can download the image repository [here](https://drive.google.com/drive/folders/1ov4wfJUWTLWmqwUbvs8v0L9BUCZed6E4?usp=sharing)
@@ -25,3 +29,8 @@ The dataset structure is shown below
         |   ├── not_shark           
         |   ├── shark
 ``` 
+
+## References
+- [1] Jenrette J, Liu ZY-C, Hastie T, Ferretti F. Data mining Instagram for tracking global sharkpopulations. Science Advances (TBD). 2020.
+- [2] Liu ZY-C, Chamberlin AJ, Shome P, Jones IJ, Riveau G, Jouanard N, Ndione, Sokolow SH, De Leo GA. Identification of snails and parasites of medical importance via convolutional neural network: an application for human schistosomiasis. PLoS neglected tropical diseases. 2019.
+- [3] Schroeder J. InstaCrawlR. Crawl public Instagram data using R scripts without API access token. 2018. 
