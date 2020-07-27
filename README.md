@@ -9,7 +9,7 @@ In early trainings, we identified challenges in a binary classification structur
 
 In conjuncture with Instagram web scraping utilizing InstaCrawlR [3] for post collection, this model can be used in a pipeline which maps inferred shark sightings according to predictions and locations mentioned in the post [1]. You can find this repository [here](https://github.com/JeremyFJ/Instagram_sharkSighting)
 
-![image_sample1.png](image_sample1.png)
+![image_sample1.png](image_sample1.PNG)
 
 Image examples for the three classes: drawing, not_shark, and shark
 
