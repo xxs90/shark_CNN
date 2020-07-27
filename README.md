@@ -67,7 +67,7 @@ Note -- Add the images you want predicted to `model_predictor/dataset/test_set/s
 `1 = not_shark`
 `2 = shark`
 
-A typical training run will look like this where validation accuracy is 92%. Loss is very low, around 0.4 and training accuracy ranges from 90-95%. `F1=0.93` 93% accuracy prediction for Instagram images. 
+A typical training run will look like this where validation accuracy is 92%. Loss is very low, around 0.4 and training accuracy ranges from 90-95%. `F1=0.92` 92% accuracy prediction for Instagram images. 
 
 ## Check out
 Based on a multi-classification model trained to identify vector parasites of Schistosomiasis
