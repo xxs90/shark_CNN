@@ -30,7 +30,7 @@ The dataset structure is shown below
         |   ├── shark
 ``` 
 ## Code
-This model implements the Keras package with a Tensorflow backend entirely in Python. The pre-trained VGG16 is a CNN model built by Zisserman and Simonyan from the University of Oxford that achieves 92.7% accuracy from ImageNet with 14 million images and 1000 classes [4]. The final layer is explicitly written in this code after specifying 'include_top=False'. The final layers are frozen to better train the model to identify shark features. 
+This model implements the Keras package with a Tensorflow backend entirely in Python. The pre-trained VGG16 is a CNN model built by Zisserman and Simonyan from the University of Oxford that achieves 92.7% accuracy from ImageNet with 14 million images and 1000 classes [4]. The final layer is explicitly written in this code after specifying `include_top=False`. The final layers are frozen to better train the model to identify shark features. 
 
 ### Requires
 - [Anaconda / Python 3.7.3](https://www.anaconda.com/products/individual)
